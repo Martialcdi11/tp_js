@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Le porte folio de Martial</title>
+<link href="jquery-ui-1.11.4.custom/jquery-ui.css" rel="stylesheet" type="text/css" />
+<link href="MonPortFolio.css" rel="stylesheet" type="text/css" />
+<script src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+<script src="jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+
+<script src="tableimage.js"></script>
+<script src="image1.js"></script>
+<script src="image3.js"></script>
+<script src="image2.js"></script>
+<script src="MonPortFolio.js"></script>
+
+</head>
+<body>
+	<div id="ajimg" title="Ajout Image">
+		<input type="file" id="fileSelector" accept="image" multiple />
+	</div>
+	
+	<div class="imginfos" title="Information sur l'image">
+	 	<div class="imagecomplete">
+			<p class="imgtitre">titre de l'image</p>
+			<img class="imgappercu" alt="apercu" src="" />
+			<div class="imgdesc">description de l'image</div>
+			<div class="imgtags">tags de l'image</div>
+		</div>
+	</div>
+	<div id="navigateur">
+		<button id="left">&lt;&lt;</button>
+		<button id="ajout">Ajout</button>
+		<button id="right">&gt;&gt;</button>
+	</div>
+	<div id="defiloir">
+
+	</div>
+</body>
+</html>

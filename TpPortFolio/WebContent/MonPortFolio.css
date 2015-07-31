@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+#defiloir, #navigateur {
+	text-align: center;
+}
+.imagecomplete{
+	display:inline-block;
+	width:49%;
+	text-align: center;
+	border: solid 1px;
+}
+
+.imagecomplete *{
+	border: solid 1px;
+}
+
+.imgapercu {
+	max-width: 100%
+}
